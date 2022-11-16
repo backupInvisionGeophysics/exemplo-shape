@@ -16,8 +16,8 @@
 
 CC = javac
 JVM = java
-DEP = Pilha.class PilhaVaziaException.class PilhaCheiaException.class
-TEST = TestPilha.java
+DEP = Shape.class Rectangle.class Circle.java
+TEST = TestShape.java
 
 all:	$(DEP)
 
