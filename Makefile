@@ -16,7 +16,7 @@
 
 CC = javac
 JVM = java
-DEP = Shape.class Rectangle.class Circle.java
+DEP = AbstractShape.class Rectangle.class Circle.java
 TEST = TestShape.java
 
 all:	$(DEP)

@@ -10,6 +10,6 @@ public abstract class AbstractShape {
 		return this.color;
 	}
 
-	public double area();
+	public abstract double area();
 
 }

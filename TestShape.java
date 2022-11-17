@@ -31,12 +31,20 @@ public class TestShape{
 		assertEquals(Color.BLACK.toString(),"BLACK");
 	}
 
-	/*@Test
+	@Test
 	@Tag("GetRectangleArea")
 	@DisplayName("Obter a área do retângulo")
 	public void testGetRectangleArea(){
-		Rectangle r = new Rectangle();
+		Rectangle r = new Rectangle(Color.BLUE,4.0,5.0);
 		assertEquals(20.0,r.area(),0.1);
-	}*/
+	}
+
+	@Test
+	@Tag("GetRectangleColor")
+	@DisplayName("Obter a cor do retângulo")
+	public void testGetRectangleColor(){
+		Rectangle r = new Rectangle(Color.BLUE,4.0,5.0);
+		assertEquals(r.getColor(),Color.BLUE);
+	}
 
 }
